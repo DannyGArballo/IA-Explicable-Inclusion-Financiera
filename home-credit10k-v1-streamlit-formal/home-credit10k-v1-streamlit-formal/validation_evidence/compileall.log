@@ -1,0 +1,2 @@
+$ python -m compileall -q .
+exit_code=0

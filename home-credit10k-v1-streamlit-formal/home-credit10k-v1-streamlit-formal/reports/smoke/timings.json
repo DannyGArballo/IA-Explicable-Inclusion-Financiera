@@ -1,0 +1,38 @@
+{
+  "carga_y_perfilado_de_base": {
+    "segundos": 0.020804039000040575,
+    "memoria_rss_mb": 834.171875
+  },
+  "ingenieria_de_variables": {
+    "segundos": 2.9252512010000373,
+    "memoria_rss_mb": 856.04296875
+  },
+  "particion_temporal": {
+    "segundos": 2.411366998999938,
+    "memoria_rss_mb": 856.04296875
+  },
+  "seleccion_variables_solo_entrenamiento": {
+    "segundos": 0.36688991400001214,
+    "memoria_rss_mb": 859.04296875
+  },
+  "entrenamiento_y_metricas_catboost": {
+    "segundos": 0.5324806739999985,
+    "memoria_rss_mb": 1341.2890625
+  },
+  "entrenamiento_y_metricas_regresion_logistica": {
+    "segundos": 0.3697108050000679,
+    "memoria_rss_mb": 1341.2890625
+  },
+  "controles_negativos": {
+    "segundos": 0.07092023500001687,
+    "memoria_rss_mb": 1341.2890625
+  },
+  "explicabilidad": {
+    "segundos": 1.7757482449999316,
+    "memoria_rss_mb": 1356.7734375
+  },
+  "total": {
+    "segundos": 8.481902906999949,
+    "memoria_rss_mb": 1356.7734375
+  }
+}

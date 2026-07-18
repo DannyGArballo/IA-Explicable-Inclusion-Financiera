@@ -1,0 +1,14 @@
+{
+  "python": "3.13.5 (main, May  5 2026, 21:05:52) [GCC 14.2.0]",
+  "plataforma": "Linux-4.4.0-x86_64-with-glibc2.41",
+  "dependencias": {
+    "pandas": "2.2.3",
+    "numpy": "2.3.5",
+    "scikit-learn": "1.8.0",
+    "catboost": "1.2.8",
+    "matplotlib": "3.10.8",
+    "psutil": "7.2.2",
+    "pytest": "9.0.2"
+  },
+  "hilos": 2
+}

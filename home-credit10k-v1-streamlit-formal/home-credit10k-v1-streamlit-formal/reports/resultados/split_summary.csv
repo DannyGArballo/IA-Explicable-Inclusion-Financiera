@@ -1,0 +1,4 @@
+particion,filas,positivos,negativos,tasa_positivos,semana_minima,semana_maxima,semanas,ambas_clases
+entrenamiento,6997,215,6782,0.030727454623410033,0,51,52,verdadero
+validacion,1501,60,1441,0.039973351099267154,52,67,16,verdadero
+prueba,1502,39,1463,0.02596537949400799,68,91,24,verdadero

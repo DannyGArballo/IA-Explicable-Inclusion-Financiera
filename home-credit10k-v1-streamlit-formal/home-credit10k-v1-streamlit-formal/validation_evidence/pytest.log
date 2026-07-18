@@ -1,0 +1,4 @@
+$ python -m pytest -q -ra
+..........                                                               [100%]
+10 passed in 1.91s
+exit_code=0

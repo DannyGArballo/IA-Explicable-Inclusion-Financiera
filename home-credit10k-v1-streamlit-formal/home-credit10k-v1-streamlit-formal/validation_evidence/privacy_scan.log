@@ -1,0 +1,4 @@
+PASS
+No report CSV contains case_id or individual probability columns.
+No report JSON contains record-level case_id/probability keys.
+The package contains no dataset files.

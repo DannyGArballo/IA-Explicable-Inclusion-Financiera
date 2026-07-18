@@ -1,0 +1,211 @@
+variable,motivo
+case_id,estructural/identificador_directo/temporal
+date_decision,estructural/identificador_directo/temporal
+MONTH,estructural/identificador_directo/temporal
+WEEK_NUM,estructural/identificador_directo/temporal
+target,estructural/identificador_directo/temporal
+static_0__applicationcnt_361L,excluida: constante en entrenamiento
+static_0__bankacctype_710L,excluida: constante en entrenamiento
+static_0__clientscnt_136L,excluida: fraccion de nulos >= 95%
+static_0__commnoinclast6m_3546845L,excluida: constante en entrenamiento
+static_0__deferredmnthsnum_166L,excluida: constante en entrenamiento
+static_0__equalityempfrom_62L,excluida: fraccion de nulos >= 95%
+static_0__interestrategrace_34L,excluida: fraccion de nulos >= 95%
+static_0__isbidproductrequest_292L,excluida: fraccion de nulos >= 95%
+static_0__isdebitcard_729L,excluida: constante en entrenamiento
+static_0__lastapprcommoditytypec_5251766M,excluida: constante en entrenamiento
+static_0__lastdependentsnum_448L,excluida: fraccion de nulos >= 95%
+static_0__lastotherinc_902A,excluida: fraccion de nulos >= 95%
+static_0__lastotherlnsexpense_631A,excluida: fraccion de nulos >= 95%
+static_0__lastrejectcommodtypec_5251769M,excluida: constante en entrenamiento
+static_0__mastercontrelectronic_519L,excluida: constante en entrenamiento
+static_0__mastercontrexist_109L,excluida: constante en entrenamiento
+static_0__paytype1st_925L,excluida: constante en entrenamiento
+static_0__paytype_783L,excluida: constante en entrenamiento
+static_0__typesuite_864L,excluida: constante en entrenamiento
+static_cb_0__contractssum_5085716L,excluida: fraccion de nulos >= 95%
+static_cb_0__description_5085714M,excluida: constante en entrenamiento
+static_cb_0__for3years_128L,excluida: fraccion de nulos >= 95%
+static_cb_0__for3years_504L,excluida: fraccion de nulos >= 95%
+static_cb_0__for3years_584L,excluida: fraccion de nulos >= 95%
+static_cb_0__forquarter_1017L,excluida: fraccion de nulos >= 95%
+static_cb_0__forquarter_462L,excluida: fraccion de nulos >= 95%
+static_cb_0__forquarter_634L,excluida: fraccion de nulos >= 95%
+static_cb_0__fortoday_1092L,excluida: fraccion de nulos >= 95%
+static_cb_0__foryear_618L,excluida: fraccion de nulos >= 95%
+static_cb_0__foryear_818L,excluida: fraccion de nulos >= 95%
+static_cb_0__foryear_850L,excluida: fraccion de nulos >= 95%
+static_cb_0__pmtaverage_4955615A,excluida: fraccion de nulos >= 95%
+static_cb_0__pmtcount_4955617L,excluida: fraccion de nulos >= 95%
+applprev_1__actualdpd_943P__min,excluida: constante en entrenamiento
+applprev_1__credacc_actualbalance_314A__std,excluida: fraccion de nulos >= 95%
+credit_bureau_a_1__annualeffectiverate_199L__std,excluida: fraccion de nulos >= 95%
+credit_bureau_a_1__annualeffectiverate_63L__std,excluida: fraccion de nulos >= 95%
+credit_bureau_a_1__contractsum_5085717L__min,excluida: fraccion de nulos >= 95%
+credit_bureau_a_1__contractsum_5085717L__max,excluida: fraccion de nulos >= 95%
+credit_bureau_a_1__contractsum_5085717L__mean,excluida: fraccion de nulos >= 95%
+credit_bureau_a_1__contractsum_5085717L__std,excluida: fraccion de nulos >= 95%
+credit_bureau_a_1__contractsum_5085717L__first,excluida: fraccion de nulos >= 95%
+credit_bureau_a_1__contractsum_5085717L__last,excluida: fraccion de nulos >= 95%
+credit_bureau_a_1__contractsum_5085717L__range,excluida: fraccion de nulos >= 95%
+credit_bureau_a_1__debtoutstand_525A__std,excluida: fraccion de nulos >= 95%
+credit_bureau_a_1__debtoutstand_525A__range,excluida: constante en entrenamiento
+credit_bureau_a_1__classificationofcontr_13M__last,excluida: constante en entrenamiento
+credit_bureau_a_2__collater_typofvalofguarant_298M__last,excluida: constante en entrenamiento
+credit_bureau_a_2__collater_typofvalofguarant_407M__last,excluida: constante en entrenamiento
+credit_bureau_b_1__row_count,excluida: fraccion de nulos >= 95%
+credit_bureau_b_1__amount_1115A__min,excluida: fraccion de nulos >= 95%
+credit_bureau_b_1__amount_1115A__max,excluida: fraccion de nulos >= 95%
+credit_bureau_b_1__amount_1115A__mean,excluida: fraccion de nulos >= 95%
+credit_bureau_b_1__amount_1115A__std,excluida: fraccion de nulos >= 95%
+credit_bureau_b_1__amount_1115A__first,excluida: fraccion de nulos >= 95%
+credit_bureau_b_1__amount_1115A__last,excluida: fraccion de nulos >= 95%
+credit_bureau_b_1__amount_1115A__range,excluida: fraccion de nulos >= 95%
+credit_bureau_b_1__credlmt_1052A__min,excluida: fraccion de nulos >= 95%
+credit_bureau_b_1__credlmt_1052A__max,excluida: fraccion de nulos >= 95%
+credit_bureau_b_1__credlmt_1052A__mean,excluida: fraccion de nulos >= 95%
+credit_bureau_b_1__credlmt_1052A__std,excluida: fraccion de nulos >= 95%
+credit_bureau_b_1__credlmt_1052A__first,excluida: fraccion de nulos >= 95%
+credit_bureau_b_1__credlmt_1052A__last,excluida: fraccion de nulos >= 95%
+credit_bureau_b_1__credlmt_1052A__range,excluida: fraccion de nulos >= 95%
+credit_bureau_b_1__credlmt_228A__min,excluida: fraccion de nulos >= 95%
+credit_bureau_b_1__credlmt_228A__max,excluida: fraccion de nulos >= 95%
+credit_bureau_b_1__credlmt_228A__mean,excluida: fraccion de nulos >= 95%
+credit_bureau_b_1__credlmt_228A__std,excluida: fraccion de nulos >= 95%
+credit_bureau_b_1__credlmt_228A__first,excluida: fraccion de nulos >= 95%
+credit_bureau_b_1__credlmt_228A__last,excluida: fraccion de nulos >= 95%
+credit_bureau_b_1__credlmt_228A__range,excluida: fraccion de nulos >= 95%
+credit_bureau_b_1__credlmt_3940954A__min,excluida: fraccion de nulos >= 95%
+credit_bureau_b_1__credlmt_3940954A__max,excluida: fraccion de nulos >= 95%
+credit_bureau_b_1__credlmt_3940954A__mean,excluida: fraccion de nulos >= 95%
+credit_bureau_b_1__credlmt_3940954A__std,excluida: fraccion de nulos >= 95%
+credit_bureau_b_1__credlmt_3940954A__first,excluida: fraccion de nulos >= 95%
+credit_bureau_b_1__credlmt_3940954A__last,excluida: fraccion de nulos >= 95%
+credit_bureau_b_1__credlmt_3940954A__range,excluida: fraccion de nulos >= 95%
+credit_bureau_b_1__credquantity_1099L__min,excluida: fraccion de nulos >= 95%
+credit_bureau_b_1__credquantity_1099L__max,excluida: fraccion de nulos >= 95%
+credit_bureau_b_1__credquantity_1099L__mean,excluida: fraccion de nulos >= 95%
+credit_bureau_b_1__credquantity_1099L__std,excluida: fraccion de nulos >= 95%
+credit_bureau_b_1__credquantity_1099L__first,excluida: fraccion de nulos >= 95%
+credit_bureau_b_1__credquantity_1099L__last,excluida: fraccion de nulos >= 95%
+credit_bureau_b_1__credquantity_1099L__range,excluida: fraccion de nulos >= 95%
+credit_bureau_b_1__credquantity_984L__min,excluida: fraccion de nulos >= 95%
+credit_bureau_b_1__credquantity_984L__max,excluida: fraccion de nulos >= 95%
+credit_bureau_b_1__credquantity_984L__mean,excluida: fraccion de nulos >= 95%
+credit_bureau_b_1__credquantity_984L__std,excluida: fraccion de nulos >= 95%
+credit_bureau_b_1__credquantity_984L__first,excluida: fraccion de nulos >= 95%
+credit_bureau_b_1__credquantity_984L__last,excluida: fraccion de nulos >= 95%
+credit_bureau_b_1__credquantity_984L__range,excluida: fraccion de nulos >= 95%
+credit_bureau_b_1__classificationofcontr_1114M__first,excluida: fraccion de nulos >= 95%
+credit_bureau_b_1__classificationofcontr_1114M__last,excluida: fraccion de nulos >= 95%
+credit_bureau_b_1__classificationofcontr_1114M__nunique,excluida: fraccion de nulos >= 95%
+credit_bureau_b_1__contractst_516M__first,excluida: fraccion de nulos >= 95%
+credit_bureau_b_1__contractst_516M__last,excluida: fraccion de nulos >= 95%
+credit_bureau_b_1__contractst_516M__nunique,excluida: fraccion de nulos >= 95%
+person_1__childnum_185L__min,excluida: fraccion de nulos >= 95%
+person_1__childnum_185L__max,excluida: fraccion de nulos >= 95%
+person_1__childnum_185L__mean,excluida: fraccion de nulos >= 95%
+person_1__childnum_185L__std,excluida: fraccion de nulos >= 95%
+person_1__childnum_185L__first,excluida: fraccion de nulos >= 95%
+person_1__childnum_185L__last,excluida: fraccion de nulos >= 95%
+person_1__childnum_185L__range,excluida: fraccion de nulos >= 95%
+person_1__gender_992L__min,excluida: fraccion de nulos >= 95%
+person_1__gender_992L__max,excluida: fraccion de nulos >= 95%
+person_1__gender_992L__mean,excluida: fraccion de nulos >= 95%
+person_1__gender_992L__std,excluida: fraccion de nulos >= 95%
+person_1__gender_992L__first,excluida: fraccion de nulos >= 95%
+person_1__gender_992L__last,excluida: fraccion de nulos >= 95%
+person_1__gender_992L__range,excluida: fraccion de nulos >= 95%
+person_1__housetype_905L__min,excluida: fraccion de nulos >= 95%
+person_1__housetype_905L__max,excluida: fraccion de nulos >= 95%
+person_1__housetype_905L__mean,excluida: fraccion de nulos >= 95%
+person_1__housetype_905L__std,excluida: fraccion de nulos >= 95%
+person_1__housetype_905L__first,excluida: fraccion de nulos >= 95%
+person_1__housetype_905L__last,excluida: fraccion de nulos >= 95%
+person_1__housetype_905L__range,excluida: fraccion de nulos >= 95%
+person_1__housingtype_772L__min,excluida: fraccion de nulos >= 95%
+person_1__housingtype_772L__max,excluida: fraccion de nulos >= 95%
+person_1__housingtype_772L__mean,excluida: fraccion de nulos >= 95%
+person_1__housingtype_772L__std,excluida: fraccion de nulos >= 95%
+person_1__housingtype_772L__first,excluida: fraccion de nulos >= 95%
+person_1__housingtype_772L__last,excluida: fraccion de nulos >= 95%
+person_1__housingtype_772L__range,excluida: fraccion de nulos >= 95%
+person_1__isreference_387L__min,excluida: fraccion de nulos >= 95%
+person_1__isreference_387L__max,excluida: fraccion de nulos >= 95%
+person_1__isreference_387L__mean,excluida: fraccion de nulos >= 95%
+person_1__isreference_387L__std,excluida: fraccion de nulos >= 95%
+person_1__isreference_387L__first,excluida: fraccion de nulos >= 95%
+person_1__isreference_387L__last,excluida: fraccion de nulos >= 95%
+person_1__isreference_387L__range,excluida: fraccion de nulos >= 95%
+person_1__mainoccupationinc_384A__std,excluida: fraccion de nulos >= 95%
+person_1__mainoccupationinc_384A__range,excluida: constante en entrenamiento
+person_1__contaddr_matchlist_1032L__first,excluida: constante en entrenamiento
+person_1__contaddr_matchlist_1032L__last,excluida: constante en entrenamiento
+person_1__contaddr_matchlist_1032L__nunique,excluida: constante en entrenamiento
+person_1__contaddr_smempladdr_334L__nunique,excluida: constante en entrenamiento
+debitcard_1__last180dayaveragebalance_704A__min,excluida: fraccion de nulos >= 95%
+debitcard_1__last180dayaveragebalance_704A__max,excluida: fraccion de nulos >= 95%
+debitcard_1__last180dayaveragebalance_704A__mean,excluida: fraccion de nulos >= 95%
+debitcard_1__last180dayaveragebalance_704A__std,excluida: fraccion de nulos >= 95%
+debitcard_1__last180dayaveragebalance_704A__first,excluida: fraccion de nulos >= 95%
+debitcard_1__last180dayaveragebalance_704A__last,excluida: fraccion de nulos >= 95%
+debitcard_1__last180dayaveragebalance_704A__range,excluida: fraccion de nulos >= 95%
+debitcard_1__last180dayturnover_1134A__min,excluida: fraccion de nulos >= 95%
+debitcard_1__last180dayturnover_1134A__max,excluida: fraccion de nulos >= 95%
+debitcard_1__last180dayturnover_1134A__mean,excluida: fraccion de nulos >= 95%
+debitcard_1__last180dayturnover_1134A__std,excluida: fraccion de nulos >= 95%
+debitcard_1__last180dayturnover_1134A__first,excluida: fraccion de nulos >= 95%
+debitcard_1__last180dayturnover_1134A__last,excluida: fraccion de nulos >= 95%
+debitcard_1__last180dayturnover_1134A__range,excluida: fraccion de nulos >= 95%
+debitcard_1__last30dayturnover_651A__min,excluida: fraccion de nulos >= 95%
+debitcard_1__last30dayturnover_651A__max,excluida: fraccion de nulos >= 95%
+debitcard_1__last30dayturnover_651A__mean,excluida: fraccion de nulos >= 95%
+debitcard_1__last30dayturnover_651A__std,excluida: fraccion de nulos >= 95%
+debitcard_1__last30dayturnover_651A__first,excluida: fraccion de nulos >= 95%
+debitcard_1__last30dayturnover_651A__last,excluida: fraccion de nulos >= 95%
+debitcard_1__last30dayturnover_651A__range,excluida: fraccion de nulos >= 95%
+deposit_1__amount_416A__std,excluida: fraccion de nulos >= 95%
+other_1__row_count,excluida: fraccion de nulos >= 95%
+other_1__amtdebitincoming_4809443A__min,excluida: fraccion de nulos >= 95%
+other_1__amtdebitincoming_4809443A__max,excluida: fraccion de nulos >= 95%
+other_1__amtdebitincoming_4809443A__mean,excluida: fraccion de nulos >= 95%
+other_1__amtdebitincoming_4809443A__std,excluida: fraccion de nulos >= 95%
+other_1__amtdebitincoming_4809443A__first,excluida: fraccion de nulos >= 95%
+other_1__amtdebitincoming_4809443A__last,excluida: fraccion de nulos >= 95%
+other_1__amtdebitincoming_4809443A__range,excluida: fraccion de nulos >= 95%
+other_1__amtdebitoutgoing_4809440A__min,excluida: fraccion de nulos >= 95%
+other_1__amtdebitoutgoing_4809440A__max,excluida: fraccion de nulos >= 95%
+other_1__amtdebitoutgoing_4809440A__mean,excluida: fraccion de nulos >= 95%
+other_1__amtdebitoutgoing_4809440A__std,excluida: fraccion de nulos >= 95%
+other_1__amtdebitoutgoing_4809440A__first,excluida: fraccion de nulos >= 95%
+other_1__amtdebitoutgoing_4809440A__last,excluida: fraccion de nulos >= 95%
+other_1__amtdebitoutgoing_4809440A__range,excluida: fraccion de nulos >= 95%
+other_1__amtdepositbalance_4809441A__min,excluida: fraccion de nulos >= 95%
+other_1__amtdepositbalance_4809441A__max,excluida: fraccion de nulos >= 95%
+other_1__amtdepositbalance_4809441A__mean,excluida: fraccion de nulos >= 95%
+other_1__amtdepositbalance_4809441A__std,excluida: fraccion de nulos >= 95%
+other_1__amtdepositbalance_4809441A__first,excluida: fraccion de nulos >= 95%
+other_1__amtdepositbalance_4809441A__last,excluida: fraccion de nulos >= 95%
+other_1__amtdepositbalance_4809441A__range,excluida: fraccion de nulos >= 95%
+other_1__amtdepositincoming_4809444A__min,excluida: fraccion de nulos >= 95%
+other_1__amtdepositincoming_4809444A__max,excluida: fraccion de nulos >= 95%
+other_1__amtdepositincoming_4809444A__mean,excluida: fraccion de nulos >= 95%
+other_1__amtdepositincoming_4809444A__std,excluida: fraccion de nulos >= 95%
+other_1__amtdepositincoming_4809444A__first,excluida: fraccion de nulos >= 95%
+other_1__amtdepositincoming_4809444A__last,excluida: fraccion de nulos >= 95%
+other_1__amtdepositincoming_4809444A__range,excluida: fraccion de nulos >= 95%
+other_1__amtdepositoutgoing_4809442A__min,excluida: fraccion de nulos >= 95%
+other_1__amtdepositoutgoing_4809442A__max,excluida: fraccion de nulos >= 95%
+other_1__amtdepositoutgoing_4809442A__mean,excluida: fraccion de nulos >= 95%
+other_1__amtdepositoutgoing_4809442A__std,excluida: fraccion de nulos >= 95%
+other_1__amtdepositoutgoing_4809442A__first,excluida: fraccion de nulos >= 95%
+other_1__amtdepositoutgoing_4809442A__last,excluida: fraccion de nulos >= 95%
+other_1__amtdepositoutgoing_4809442A__range,excluida: fraccion de nulos >= 95%
+tax_registry_b_1__row_count,excluida: fraccion de nulos >= 95%
+tax_registry_b_1__amount_4917619A__min,excluida: fraccion de nulos >= 95%
+tax_registry_b_1__amount_4917619A__max,excluida: fraccion de nulos >= 95%
+tax_registry_b_1__amount_4917619A__mean,excluida: fraccion de nulos >= 95%
+tax_registry_b_1__amount_4917619A__std,excluida: fraccion de nulos >= 95%
+tax_registry_b_1__amount_4917619A__first,excluida: fraccion de nulos >= 95%
+tax_registry_b_1__amount_4917619A__last,excluida: fraccion de nulos >= 95%
+tax_registry_b_1__amount_4917619A__range,excluida: fraccion de nulos >= 95%

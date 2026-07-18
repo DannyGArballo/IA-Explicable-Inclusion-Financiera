@@ -1,0 +1,9 @@
+2026-07-14 23:06:52,056 | INFO | carga_y_perfilado_de_base completado en 0.01 s | memoria RSS 852.5 MB
+2026-07-14 23:06:58,109 | INFO | ingenieria_de_variables completado en 6.05 s | memoria RSS 957.3 MB
+2026-07-14 23:07:01,088 | INFO | particion_temporal completado en 2.98 s | memoria RSS 1024.7 MB
+2026-07-14 23:07:01,696 | INFO | seleccion_variables_solo_entrenamiento completado en 0.61 s | memoria RSS 1027.7 MB
+2026-07-14 23:07:04,795 | INFO | entrenamiento_y_metricas_catboost completado en 3.10 s | memoria RSS 1572.9 MB
+2026-07-14 23:07:08,677 | INFO | entrenamiento_y_metricas_regresion_logistica completado en 3.88 s | memoria RSS 1711.5 MB
+2026-07-14 23:07:13,126 | INFO | controles_negativos completado en 4.45 s | memoria RSS 1711.5 MB
+2026-07-14 23:07:14,805 | INFO | explicabilidad completado en 1.68 s | memoria RSS 1655.6 MB
+2026-07-14 23:07:14,844 | INFO | Flujo de trabajo completado en 22.77 s

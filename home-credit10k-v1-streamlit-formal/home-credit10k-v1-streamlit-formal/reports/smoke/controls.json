@@ -1,0 +1,30 @@
+{
+  "probabilidad_constante": {
+    "prevalencia_entrenamiento": 0.03156384505021521,
+    "particiones": {
+      "entrenamiento": {
+        "auc": 0.5,
+        "gini": 0.0
+      },
+      "validacion": {
+        "auc": 0.5,
+        "gini": 0.0
+      },
+      "prueba": {
+        "auc": 0.5,
+        "gini": 0.0
+      }
+    }
+  },
+  "permutacion_aleatoria_objetivo": {
+    "estado": "advertencia",
+    "ginis_prueba": [
+      -0.06756756756756754,
+      -0.2792792792792793,
+      -0.49549549549549554
+    ],
+    "gini_medio_prueba": -0.2807807807807808,
+    "advertencia": true,
+    "umbral_gini_absoluto": 0.2
+  }
+}

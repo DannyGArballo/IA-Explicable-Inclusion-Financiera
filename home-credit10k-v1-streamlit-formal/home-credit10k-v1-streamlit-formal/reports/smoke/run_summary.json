@@ -1,0 +1,707 @@
+{
+  "aviso": "Los resultados corresponden a una muestra escolar de 10,000 solicitudes y no representan una validación productiva.",
+  "perfil": "prueba_rapida",
+  "conjunto_datos": {
+    "filas": 1000,
+    "positivos": 31,
+    "negativos": 969,
+    "tasa_positivos": 0.031,
+    "semanas": 90,
+    "semana_minima": 0,
+    "semana_maxima": 91,
+    "case_id_unico": true
+  },
+  "referencia_conjunto_datos_completo": {
+    "filas": 10000,
+    "positivos": 314,
+    "negativos": 9686,
+    "tasa_positivos": 0.0314,
+    "semanas": 92,
+    "semana_minima": 0,
+    "semana_maxima": 91,
+    "case_id_unico": true
+  },
+  "conteo_variables": {
+    "iniciales": 516,
+    "seleccionadas": 250
+  },
+  "particion": {
+    "semana_fin_entrenamiento": 51,
+    "semana_fin_validacion": 70,
+    "solapamiento_case_id": false,
+    "particiones": [
+      {
+        "particion": "entrenamiento",
+        "filas": 697,
+        "positivos": 22,
+        "negativos": 675,
+        "tasa_positivos": 0.03156384505021521,
+        "semana_minima": 0,
+        "semana_maxima": 51,
+        "semanas": 52,
+        "ambas_clases": true
+      },
+      {
+        "particion": "validacion",
+        "filas": 152,
+        "positivos": 6,
+        "negativos": 146,
+        "tasa_positivos": 0.039473684210526314,
+        "semana_minima": 52,
+        "semana_maxima": 70,
+        "semanas": 17,
+        "ambas_clases": true
+      },
+      {
+        "particion": "prueba",
+        "filas": 151,
+        "positivos": 3,
+        "negativos": 148,
+        "tasa_positivos": 0.019867549668874173,
+        "semana_minima": 71,
+        "semana_maxima": 91,
+        "semanas": 21,
+        "ambas_clases": true
+      }
+    ]
+  },
+  "metricas": {
+    "catboost": {
+      "particiones": {
+        "entrenamiento": {
+          "particion": "entrenamiento",
+          "filas": 697,
+          "positivos": 22,
+          "negativos": 675,
+          "auc_roc": 0.8884511784511784,
+          "gini": 0.7769023569023568,
+          "perdida_logaritmica": 0.6286021035145494,
+          "puntuacion_brier": 0.21791314677443854,
+          "remuestreo_bootstrap": null,
+          "por_semana": [
+            {
+              "semana": 1,
+              "filas": 10,
+              "positivos": 1,
+              "auc": 1.0,
+              "gini": 1.0
+            },
+            {
+              "semana": 3,
+              "filas": 11,
+              "positivos": 1,
+              "auc": 1.0,
+              "gini": 1.0
+            },
+            {
+              "semana": 7,
+              "filas": 11,
+              "positivos": 1,
+              "auc": 1.0,
+              "gini": 1.0
+            },
+            {
+              "semana": 10,
+              "filas": 13,
+              "positivos": 1,
+              "auc": 1.0,
+              "gini": 1.0
+            },
+            {
+              "semana": 13,
+              "filas": 8,
+              "positivos": 1,
+              "auc": 1.0,
+              "gini": 1.0
+            },
+            {
+              "semana": 14,
+              "filas": 11,
+              "positivos": 1,
+              "auc": 1.0,
+              "gini": 1.0
+            },
+            {
+              "semana": 15,
+              "filas": 11,
+              "positivos": 1,
+              "auc": 1.0,
+              "gini": 1.0
+            },
+            {
+              "semana": 18,
+              "filas": 6,
+              "positivos": 1,
+              "auc": 1.0,
+              "gini": 1.0
+            },
+            {
+              "semana": 23,
+              "filas": 15,
+              "positivos": 1,
+              "auc": 1.0,
+              "gini": 1.0
+            },
+            {
+              "semana": 34,
+              "filas": 14,
+              "positivos": 1,
+              "auc": 0.9615384615384616,
+              "gini": 0.9230769230769231
+            },
+            {
+              "semana": 36,
+              "filas": 20,
+              "positivos": 1,
+              "auc": 0.34210526315789475,
+              "gini": -0.3157894736842105
+            },
+            {
+              "semana": 37,
+              "filas": 17,
+              "positivos": 1,
+              "auc": 0.9375,
+              "gini": 0.875
+            },
+            {
+              "semana": 38,
+              "filas": 22,
+              "positivos": 1,
+              "auc": 1.0,
+              "gini": 1.0
+            },
+            {
+              "semana": 40,
+              "filas": 18,
+              "positivos": 1,
+              "auc": 0.8823529411764706,
+              "gini": 0.7647058823529411
+            },
+            {
+              "semana": 41,
+              "filas": 19,
+              "positivos": 2,
+              "auc": 0.9705882352941175,
+              "gini": 0.9411764705882351
+            },
+            {
+              "semana": 44,
+              "filas": 24,
+              "positivos": 1,
+              "auc": 0.6956521739130435,
+              "gini": 0.3913043478260869
+            },
+            {
+              "semana": 45,
+              "filas": 21,
+              "positivos": 2,
+              "auc": 0.6973684210526316,
+              "gini": 0.3947368421052633
+            },
+            {
+              "semana": 49,
+              "filas": 18,
+              "positivos": 2,
+              "auc": 0.625,
+              "gini": 0.25
+            },
+            {
+              "semana": 50,
+              "filas": 16,
+              "positivos": 1,
+              "auc": 0.9333333333333333,
+              "gini": 0.8666666666666667
+            }
+          ],
+          "semanas_validas": 19,
+          "gini_medio": 0.794256718891153,
+          "desviacion_estandar_gini": 0.3497761416876375,
+          "tendencia": -0.03138613966603144,
+          "puntuacion_estabilidad": 0.5879825083813028
+        },
+        "validacion": {
+          "particion": "validacion",
+          "filas": 152,
+          "positivos": 6,
+          "negativos": 146,
+          "auc_roc": 0.8350456621004566,
+          "gini": 0.6700913242009132,
+          "perdida_logaritmica": 0.6377177649002699,
+          "puntuacion_brier": 0.22246762334613165,
+          "remuestreo_bootstrap": {
+            "auc_limite_inferior_2_5": 0.6437928082191782,
+            "auc_mediana": 0.8378995433789955,
+            "auc_limite_superior_97_5": 0.9669520547945205,
+            "gini_limite_inferior_2_5": 0.28758561643835634,
+            "gini_mediana": 0.675799086757991,
+            "gini_limite_superior_97_5": 0.933904109589041,
+            "repeticiones": 50
+          },
+          "por_semana": [
+            {
+              "semana": 52,
+              "filas": 11,
+              "positivos": 1,
+              "auc": 0.9,
+              "gini": 0.8
+            },
+            {
+              "semana": 53,
+              "filas": 17,
+              "positivos": 2,
+              "auc": 0.9166666666666666,
+              "gini": 0.8333333333333333
+            },
+            {
+              "semana": 56,
+              "filas": 11,
+              "positivos": 1,
+              "auc": 0.9,
+              "gini": 0.8
+            },
+            {
+              "semana": 57,
+              "filas": 12,
+              "positivos": 1,
+              "auc": 1.0,
+              "gini": 1.0
+            },
+            {
+              "semana": 60,
+              "filas": 11,
+              "positivos": 1,
+              "auc": 0.5,
+              "gini": 0.0
+            }
+          ],
+          "semanas_validas": 5,
+          "gini_medio": 0.6866666666666668,
+          "desviacion_estandar_gini": 0.3512517299285197,
+          "tendencia": -0.14333333333333334,
+          "puntuacion_estabilidad": 0.36770746836907353
+        },
+        "prueba": {
+          "particion": "prueba",
+          "filas": 151,
+          "positivos": 3,
+          "negativos": 148,
+          "auc_roc": 0.8186936936936936,
+          "gini": 0.6373873873873872,
+          "perdida_logaritmica": 0.6296483676006643,
+          "puntuacion_brier": 0.21850079438567455,
+          "remuestreo_bootstrap": {
+            "auc_limite_inferior_2_5": 0.736570945945946,
+            "auc_mediana": 0.8271396396396395,
+            "auc_limite_superior_97_5": 0.8759853603603603,
+            "gini_limite_inferior_2_5": 0.47314189189189193,
+            "gini_mediana": 0.6542792792792791,
+            "gini_limite_superior_97_5": 0.7519707207207207,
+            "repeticiones": 50
+          },
+          "por_semana": [
+            {
+              "semana": 72,
+              "filas": 6,
+              "positivos": 1,
+              "auc": 1.0,
+              "gini": 1.0
+            },
+            {
+              "semana": 76,
+              "filas": 6,
+              "positivos": 1,
+              "auc": 0.6,
+              "gini": 0.19999999999999996
+            },
+            {
+              "semana": 80,
+              "filas": 4,
+              "positivos": 1,
+              "auc": 1.0,
+              "gini": 1.0
+            }
+          ],
+          "semanas_validas": 3,
+          "gini_medio": 0.7333333333333334,
+          "desviacion_estandar_gini": 0.37712361663282534,
+          "tendencia": -2.5074070841436987e-17,
+          "puntuacion_estabilidad": 0.5447715250169207
+        }
+      },
+      "brechas": {
+        "gini_entrenamiento_menos_validacion": 0.10681103270144354,
+        "gini_entrenamiento_menos_prueba": 0.13951496951496956,
+        "auc_entrenamiento_menos_validacion": 0.05340551635072177,
+        "auc_entrenamiento_menos_prueba": 0.06975748475748478
+      }
+    },
+    "regresion_logistica": {
+      "particiones": {
+        "entrenamiento": {
+          "particion": "entrenamiento",
+          "filas": 697,
+          "positivos": 22,
+          "negativos": 675,
+          "auc_roc": 0.996969696969697,
+          "gini": 0.9939393939393939,
+          "perdida_logaritmica": 0.13635717820997775,
+          "puntuacion_brier": 0.03710112774565533,
+          "remuestreo_bootstrap": null,
+          "por_semana": [
+            {
+              "semana": 1,
+              "filas": 10,
+              "positivos": 1,
+              "auc": 1.0,
+              "gini": 1.0
+            },
+            {
+              "semana": 3,
+              "filas": 11,
+              "positivos": 1,
+              "auc": 1.0,
+              "gini": 1.0
+            },
+            {
+              "semana": 7,
+              "filas": 11,
+              "positivos": 1,
+              "auc": 1.0,
+              "gini": 1.0
+            },
+            {
+              "semana": 10,
+              "filas": 13,
+              "positivos": 1,
+              "auc": 1.0,
+              "gini": 1.0
+            },
+            {
+              "semana": 13,
+              "filas": 8,
+              "positivos": 1,
+              "auc": 1.0,
+              "gini": 1.0
+            },
+            {
+              "semana": 14,
+              "filas": 11,
+              "positivos": 1,
+              "auc": 1.0,
+              "gini": 1.0
+            },
+            {
+              "semana": 15,
+              "filas": 11,
+              "positivos": 1,
+              "auc": 1.0,
+              "gini": 1.0
+            },
+            {
+              "semana": 18,
+              "filas": 6,
+              "positivos": 1,
+              "auc": 1.0,
+              "gini": 1.0
+            },
+            {
+              "semana": 23,
+              "filas": 15,
+              "positivos": 1,
+              "auc": 1.0,
+              "gini": 1.0
+            },
+            {
+              "semana": 34,
+              "filas": 14,
+              "positivos": 1,
+              "auc": 1.0,
+              "gini": 1.0
+            },
+            {
+              "semana": 36,
+              "filas": 20,
+              "positivos": 1,
+              "auc": 1.0,
+              "gini": 1.0
+            },
+            {
+              "semana": 37,
+              "filas": 17,
+              "positivos": 1,
+              "auc": 1.0,
+              "gini": 1.0
+            },
+            {
+              "semana": 38,
+              "filas": 22,
+              "positivos": 1,
+              "auc": 1.0,
+              "gini": 1.0
+            },
+            {
+              "semana": 40,
+              "filas": 18,
+              "positivos": 1,
+              "auc": 1.0,
+              "gini": 1.0
+            },
+            {
+              "semana": 41,
+              "filas": 19,
+              "positivos": 2,
+              "auc": 1.0,
+              "gini": 1.0
+            },
+            {
+              "semana": 44,
+              "filas": 24,
+              "positivos": 1,
+              "auc": 1.0,
+              "gini": 1.0
+            },
+            {
+              "semana": 45,
+              "filas": 21,
+              "positivos": 2,
+              "auc": 1.0,
+              "gini": 1.0
+            },
+            {
+              "semana": 49,
+              "filas": 18,
+              "positivos": 2,
+              "auc": 1.0,
+              "gini": 1.0
+            },
+            {
+              "semana": 50,
+              "filas": 16,
+              "positivos": 1,
+              "auc": 1.0,
+              "gini": 1.0
+            }
+          ],
+          "semanas_validas": 19,
+          "gini_medio": 1.0,
+          "desviacion_estandar_gini": 0.0,
+          "tendencia": -1.9015228766836894e-17,
+          "puntuacion_estabilidad": 1.0
+        },
+        "validacion": {
+          "particion": "validacion",
+          "filas": 152,
+          "positivos": 6,
+          "negativos": 146,
+          "auc_roc": 0.3350456621004566,
+          "gini": -0.3299086757990868,
+          "perdida_logaritmica": 0.7637371153967208,
+          "puntuacion_brier": 0.13063389514368023,
+          "remuestreo_bootstrap": {
+            "auc_limite_inferior_2_5": 0.10784817351598174,
+            "auc_mediana": 0.2928082191780822,
+            "auc_limite_superior_97_5": 0.618978310502283,
+            "gini_limite_inferior_2_5": -0.7843036529680365,
+            "gini_mediana": -0.4143835616438356,
+            "gini_limite_superior_97_5": 0.23795662100456605,
+            "repeticiones": 50
+          },
+          "por_semana": [
+            {
+              "semana": 52,
+              "filas": 11,
+              "positivos": 1,
+              "auc": 0.0,
+              "gini": -1.0
+            },
+            {
+              "semana": 53,
+              "filas": 17,
+              "positivos": 2,
+              "auc": 0.5666666666666667,
+              "gini": 0.1333333333333333
+            },
+            {
+              "semana": 56,
+              "filas": 11,
+              "positivos": 1,
+              "auc": 0.4,
+              "gini": -0.19999999999999996
+            },
+            {
+              "semana": 57,
+              "filas": 12,
+              "positivos": 1,
+              "auc": 0.18181818181818177,
+              "gini": -0.6363636363636365
+            },
+            {
+              "semana": 60,
+              "filas": 11,
+              "positivos": 1,
+              "auc": 0.30000000000000004,
+              "gini": -0.3999999999999999
+            }
+          ],
+          "semanas_validas": 5,
+          "gini_medio": -0.4206060606060606,
+          "desviacion_estandar_gini": 0.3842366886102842,
+          "tendencia": 0.0430303030303031,
+          "puntuacion_estabilidad": -0.6557547079415058
+        },
+        "prueba": {
+          "particion": "prueba",
+          "filas": 151,
+          "positivos": 3,
+          "negativos": 148,
+          "auc_roc": 0.7837837837837838,
+          "gini": 0.5675675675675675,
+          "perdida_logaritmica": 0.3419302672073094,
+          "puntuacion_brier": 0.09504950467390298,
+          "remuestreo_bootstrap": {
+            "auc_limite_inferior_2_5": 0.6484234234234235,
+            "auc_mediana": 0.7759009009009009,
+            "auc_limite_superior_97_5": 0.9139076576576577,
+            "gini_limite_inferior_2_5": 0.29684684684684703,
+            "gini_mediana": 0.5518018018018018,
+            "gini_limite_superior_97_5": 0.8278153153153154,
+            "repeticiones": 50
+          },
+          "por_semana": [
+            {
+              "semana": 72,
+              "filas": 6,
+              "positivos": 1,
+              "auc": 1.0,
+              "gini": 1.0
+            },
+            {
+              "semana": 76,
+              "filas": 6,
+              "positivos": 1,
+              "auc": 0.8,
+              "gini": 0.6000000000000001
+            },
+            {
+              "semana": 80,
+              "filas": 4,
+              "positivos": 1,
+              "auc": 0.6666666666666667,
+              "gini": 0.3333333333333335
+            }
+          ],
+          "semanas_validas": 3,
+          "gini_medio": 0.6444444444444445,
+          "desviacion_estandar_gini": 0.27397395568751,
+          "tendencia": -0.33333333333333304,
+          "puntuacion_estabilidad": 0.17412413326735643
+        }
+      },
+      "brechas": {
+        "gini_entrenamiento_menos_validacion": 1.3238480697384807,
+        "gini_entrenamiento_menos_prueba": 0.42637182637182636,
+        "auc_entrenamiento_menos_validacion": 0.6619240348692403,
+        "auc_entrenamiento_menos_prueba": 0.21318591318591318
+      }
+    }
+  },
+  "controles": {
+    "probabilidad_constante": {
+      "prevalencia_entrenamiento": 0.03156384505021521,
+      "particiones": {
+        "entrenamiento": {
+          "auc": 0.5,
+          "gini": 0.0
+        },
+        "validacion": {
+          "auc": 0.5,
+          "gini": 0.0
+        },
+        "prueba": {
+          "auc": 0.5,
+          "gini": 0.0
+        }
+      }
+    },
+    "permutacion_aleatoria_objetivo": {
+      "estado": "advertencia",
+      "ginis_prueba": [
+        -0.06756756756756754,
+        -0.2792792792792793,
+        -0.49549549549549554
+      ],
+      "gini_medio_prueba": -0.2807807807807808,
+      "advertencia": true,
+      "umbral_gini_absoluto": 0.2
+    }
+  },
+  "catboost": {
+    "mejores_iteraciones": [
+      3
+    ],
+    "variables_categoricas": 3
+  },
+  "explicabilidad": {
+    "catboost": {
+      "filas_shap": 50,
+      "variable_principal": "static_0__numinstlallpaidearly3d_817L",
+      "archivo_top30": "catboost_shap_top30.csv"
+    },
+    "regresion_logistica": {
+      "variables_codificadas": 295,
+      "cercanas_a_cero": 0
+    }
+  },
+  "tiempos": {
+    "carga_y_perfilado_de_base": {
+      "segundos": 0.020804039000040575,
+      "memoria_rss_mb": 834.171875
+    },
+    "ingenieria_de_variables": {
+      "segundos": 2.9252512010000373,
+      "memoria_rss_mb": 856.04296875
+    },
+    "particion_temporal": {
+      "segundos": 2.411366998999938,
+      "memoria_rss_mb": 856.04296875
+    },
+    "seleccion_variables_solo_entrenamiento": {
+      "segundos": 0.36688991400001214,
+      "memoria_rss_mb": 859.04296875
+    },
+    "entrenamiento_y_metricas_catboost": {
+      "segundos": 0.5324806739999985,
+      "memoria_rss_mb": 1341.2890625
+    },
+    "entrenamiento_y_metricas_regresion_logistica": {
+      "segundos": 0.3697108050000679,
+      "memoria_rss_mb": 1341.2890625
+    },
+    "controles_negativos": {
+      "segundos": 0.07092023500001687,
+      "memoria_rss_mb": 1341.2890625
+    },
+    "explicabilidad": {
+      "segundos": 1.7757482449999316,
+      "memoria_rss_mb": 1356.7734375
+    },
+    "total": {
+      "segundos": 8.481902906999949,
+      "memoria_rss_mb": 1356.7734375
+    }
+  },
+  "entorno": {
+    "python": "3.13.5 (main, May  5 2026, 21:05:52) [GCC 14.2.0]",
+    "plataforma": "Linux-4.4.0-x86_64-with-glibc2.41",
+    "dependencias": {
+      "pandas": "2.2.3",
+      "numpy": "2.3.5",
+      "scikit-learn": "1.8.0",
+      "catboost": "1.2.8",
+      "matplotlib": "3.10.8",
+      "psutil": "7.2.2",
+      "pytest": "9.0.2"
+    },
+    "hilos": 2
+  }
+}

@@ -1,0 +1,41 @@
+variable,shap_absoluto_medio lo mismo pero calculadas mediante shap SHAP es una tecnica para explicar por que un modelo hizo una prediccion.
+Como interpretar SHAP En catboost_shap_summary.png: 
+Cada fila representa una variable. Cada punto representa una solicitud. A la derecha: la variable empujo el riesgo hacia arriba. 
+A la izquierda: empuo el riesgo hacia abajo. El color suele representar si el valor de la variable era alto o bajo. 
+catboost_feature_importance.csv escuanto utilizo CatBoost cada variable al construir sus arboles. 
+catboost_shap_top30.csv indica cuanto afecto realmente cada variable a las predicciones obtenidas para los casos analizados.
+
+
+credit_bureau_a_2__row_count,0.17104030850303112  
+fue la variable que en promedio, mas cambio el puntaje de riesgo producido por CatBoost.
+
+
+credit_bureau_a_1__classificationofcontr_400M__nunique,0.10063934623968991
+credit_bureau_a_1__row_count,0.08817056193804783
+credit_bureau_a_2__pmts_overdue_1140A__range,0.0826744044149202
+credit_bureau_a_2__pmts_overdue_1140A__mean,0.07145998606962399
+static_0__mobilephncnt_593L,0.07072120397621298
+static_cb_0__thirdquarter_1082L,0.06909307524916625
+static_0__pctinstlsallpaidlate1d_3546856L,0.0634204577419738
+static_0__numinstlallpaidearly3d_817L,0.056520128862363975
+credit_bureau_a_2__pmts_overdue_1140A__std,0.05330827850158187
+static_cb_0__pmtssum_45A,0.04995737002658365
+credit_bureau_a_1__debtoutstand_525A__first,0.044992763130222525
+static_0__pctinstlsallpaidearl3d_427L,0.043628431346630636
+static_0__totalsettled_863A,0.03863457151055271
+static_0__numinstpaidearly_338L,0.03730871623483137
+static_0__numinstlswithoutdpd_562L,0.0357912291965276
+credit_bureau_a_2__collater_valueofguarantee_876L__max,0.0342748346984604
+static_0__lastrejectcredamount_222A,0.030410311775839752
+credit_bureau_a_2__collater_valueofguarantee_1124L__max,0.029242463341686717
+tax_registry_a_1__amount_4527230A__max,0.025457404162414182
+static_0__pctinstlsallpaidlate6d_3546844L,0.025362383127413214
+credit_bureau_a_2__pmts_overdue_1140A__max,0.023457948255946947
+credit_bureau_a_1__debtoutstand_525A__mean,0.023136610402473688
+static_0__avgdbddpdlast24m_3658932P,0.02295673061697379
+credit_bureau_a_1__credlmt_935A__std,0.021289159504843672
+static_0__maxdbddpdtollast12m_3658940P,0.021256006219107677
+static_0__mindbddpdlast24m_3658935P,0.021146710889380072
+credit_bureau_a_1__credlmt_935A__range,0.020868025375929754
+static_0__maxdpdlast12m_727P,0.02079667112805485
+static_0__price_1097A,0.020676202111837058

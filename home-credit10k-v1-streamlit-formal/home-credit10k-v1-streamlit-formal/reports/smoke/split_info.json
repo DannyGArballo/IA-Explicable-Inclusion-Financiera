@@ -1,0 +1,40 @@
+{
+  "semana_fin_entrenamiento": 51,
+  "semana_fin_validacion": 70,
+  "solapamiento_case_id": false,
+  "particiones": [
+    {
+      "particion": "entrenamiento",
+      "filas": 697,
+      "positivos": 22,
+      "negativos": 675,
+      "tasa_positivos": 0.03156384505021521,
+      "semana_minima": 0,
+      "semana_maxima": 51,
+      "semanas": 52,
+      "ambas_clases": true
+    },
+    {
+      "particion": "validacion",
+      "filas": 152,
+      "positivos": 6,
+      "negativos": 146,
+      "tasa_positivos": 0.039473684210526314,
+      "semana_minima": 52,
+      "semana_maxima": 70,
+      "semanas": 17,
+      "ambas_clases": true
+    },
+    {
+      "particion": "prueba",
+      "filas": 151,
+      "positivos": 3,
+      "negativos": 148,
+      "tasa_positivos": 0.019867549668874173,
+      "semana_minima": 71,
+      "semana_maxima": 91,
+      "semanas": 21,
+      "ambas_clases": true
+    }
+  ]
+}

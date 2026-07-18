@@ -1,0 +1,38 @@
+{
+  "probabilidad_constante": {
+    "prevalencia_entrenamiento": 0.030727454623410033,
+    "particiones": {
+      "entrenamiento": {
+        "auc": 0.5,
+        "gini": 0.0
+      },
+      "validacion": {
+        "auc": 0.5,
+        "gini": 0.0
+      },
+      "prueba": {
+        "auc": 0.5,
+        "gini": 0.0
+      }
+    }
+  },
+  "permutacion_aleatoria_objetivo": {
+    "estado": "correcto",
+    "ginis_prueba": [
+      -0.04520041362146632,
+      -0.2686261107313739,
+      -0.22144522144522139,
+      -0.26273726273726283,
+      -0.06966717493033281,
+      -0.08736877157929779,
+      -0.19491035280508973,
+      -0.04558599295441401,
+      -0.17510559615822774,
+      -0.07250644092749359
+    ],
+    "gini_medio_prueba": -0.144315333789018,
+    "advertencia": false,
+    "umbral_gini_absoluto": 0.2
+  }
+}
+

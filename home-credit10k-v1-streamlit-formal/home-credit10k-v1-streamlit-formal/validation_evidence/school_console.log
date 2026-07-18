@@ -1,0 +1,32 @@
+2026-07-14 23:06:52,056 | INFO | load_and_profile_base completed in 0.01s | RSS 852.5 MB
+2026-07-14 23:06:58,109 | INFO | feature_engineering completed in 6.05s | RSS 957.3 MB
+2026-07-14 23:07:01,088 | INFO | temporal_split completed in 2.98s | RSS 1024.7 MB
+2026-07-14 23:07:01,696 | INFO | train_only_feature_selection completed in 0.61s | RSS 1027.7 MB
+2026-07-14 23:07:04,795 | INFO | catboost_training_and_metrics completed in 3.10s | RSS 1572.9 MB
+2026-07-14 23:07:08,677 | INFO | logistic_training_and_metrics completed in 3.88s | RSS 1711.5 MB
+2026-07-14 23:07:13,126 | INFO | negative_controls completed in 4.45s | RSS 1711.5 MB
+2026-07-14 23:07:14,805 | INFO | explainability completed in 1.68s | RSS 1655.6 MB
+2026-07-14 23:07:14,844 | INFO | Pipeline completed in 22.77s
+	Command being timed: "python run_school_pipeline.py --data-dir /mnt/data/hc_school_work/data/home-credit-school-10k/csv_files --profile school --output-dir reports/school --random-state 42 --max-features 250 --threads 2"
+	User time (seconds): 36.18
+	System time (seconds): 2.40
+	Percent of CPU this job got: 138%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:27.82
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 1796292
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 0
+	Voluntary context switches: 97763
+	Involuntary context switches: 0
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

@@ -1,0 +1,1298 @@
+{
+  "generator": "create_home_credit_10k.py",
+  "input": "home-credit-subsample.zip",
+  "seed": 42,
+  "requested_cases": 10000,
+  "sampling": "Proportional by target and WEEK_NUM, with minimum class/week coverage when the requested class budget permits it.",
+  "source": {
+    "rows": 30000,
+    "positives": 943,
+    "negatives": 29057,
+    "positive_rate": 0.031433333333333334,
+    "week_min": 0,
+    "week_max": 91,
+    "n_weeks": 92,
+    "weeks_with_positives": 89,
+    "by_week": [
+      {
+        "WEEK_NUM": 0,
+        "rows": 317,
+        "positives": 11,
+        "positive_rate": 0.03470031545741325
+      },
+      {
+        "WEEK_NUM": 1,
+        "rows": 358,
+        "positives": 5,
+        "positive_rate": 0.013966480446927373
+      },
+      {
+        "WEEK_NUM": 2,
+        "rows": 336,
+        "positives": 9,
+        "positive_rate": 0.026785714285714284
+      },
+      {
+        "WEEK_NUM": 3,
+        "rows": 309,
+        "positives": 12,
+        "positive_rate": 0.038834951456310676
+      },
+      {
+        "WEEK_NUM": 4,
+        "rows": 286,
+        "positives": 9,
+        "positive_rate": 0.03146853146853147
+      },
+      {
+        "WEEK_NUM": 5,
+        "rows": 297,
+        "positives": 7,
+        "positive_rate": 0.02356902356902357
+      },
+      {
+        "WEEK_NUM": 6,
+        "rows": 309,
+        "positives": 12,
+        "positive_rate": 0.038834951456310676
+      },
+      {
+        "WEEK_NUM": 7,
+        "rows": 379,
+        "positives": 8,
+        "positive_rate": 0.021108179419525065
+      },
+      {
+        "WEEK_NUM": 8,
+        "rows": 269,
+        "positives": 13,
+        "positive_rate": 0.048327137546468404
+      },
+      {
+        "WEEK_NUM": 9,
+        "rows": 302,
+        "positives": 5,
+        "positive_rate": 0.016556291390728478
+      },
+      {
+        "WEEK_NUM": 10,
+        "rows": 277,
+        "positives": 5,
+        "positive_rate": 0.018050541516245487
+      },
+      {
+        "WEEK_NUM": 11,
+        "rows": 323,
+        "positives": 8,
+        "positive_rate": 0.02476780185758514
+      },
+      {
+        "WEEK_NUM": 12,
+        "rows": 336,
+        "positives": 8,
+        "positive_rate": 0.023809523809523808
+      },
+      {
+        "WEEK_NUM": 13,
+        "rows": 279,
+        "positives": 8,
+        "positive_rate": 0.02867383512544803
+      },
+      {
+        "WEEK_NUM": 14,
+        "rows": 358,
+        "positives": 9,
+        "positive_rate": 0.025139664804469275
+      },
+      {
+        "WEEK_NUM": 15,
+        "rows": 322,
+        "positives": 18,
+        "positive_rate": 0.055900621118012424
+      },
+      {
+        "WEEK_NUM": 16,
+        "rows": 343,
+        "positives": 7,
+        "positive_rate": 0.02040816326530612
+      },
+      {
+        "WEEK_NUM": 17,
+        "rows": 254,
+        "positives": 7,
+        "positive_rate": 0.027559055118110236
+      },
+      {
+        "WEEK_NUM": 18,
+        "rows": 255,
+        "positives": 7,
+        "positive_rate": 0.027450980392156862
+      },
+      {
+        "WEEK_NUM": 19,
+        "rows": 349,
+        "positives": 13,
+        "positive_rate": 0.03724928366762178
+      },
+      {
+        "WEEK_NUM": 20,
+        "rows": 323,
+        "positives": 10,
+        "positive_rate": 0.030959752321981424
+      },
+      {
+        "WEEK_NUM": 21,
+        "rows": 333,
+        "positives": 9,
+        "positive_rate": 0.02702702702702703
+      },
+      {
+        "WEEK_NUM": 22,
+        "rows": 470,
+        "positives": 11,
+        "positive_rate": 0.023404255319148935
+      },
+      {
+        "WEEK_NUM": 23,
+        "rows": 508,
+        "positives": 14,
+        "positive_rate": 0.027559055118110236
+      },
+      {
+        "WEEK_NUM": 24,
+        "rows": 409,
+        "positives": 10,
+        "positive_rate": 0.02444987775061125
+      },
+      {
+        "WEEK_NUM": 25,
+        "rows": 430,
+        "positives": 12,
+        "positive_rate": 0.027906976744186046
+      },
+      {
+        "WEEK_NUM": 26,
+        "rows": 399,
+        "positives": 10,
+        "positive_rate": 0.02506265664160401
+      },
+      {
+        "WEEK_NUM": 27,
+        "rows": 441,
+        "positives": 11,
+        "positive_rate": 0.024943310657596373
+      },
+      {
+        "WEEK_NUM": 28,
+        "rows": 444,
+        "positives": 12,
+        "positive_rate": 0.02702702702702703
+      },
+      {
+        "WEEK_NUM": 29,
+        "rows": 443,
+        "positives": 15,
+        "positive_rate": 0.033860045146726865
+      },
+      {
+        "WEEK_NUM": 30,
+        "rows": 398,
+        "positives": 15,
+        "positive_rate": 0.03768844221105527
+      },
+      {
+        "WEEK_NUM": 31,
+        "rows": 427,
+        "positives": 16,
+        "positive_rate": 0.03747072599531616
+      },
+      {
+        "WEEK_NUM": 32,
+        "rows": 449,
+        "positives": 9,
+        "positive_rate": 0.0200445434298441
+      },
+      {
+        "WEEK_NUM": 33,
+        "rows": 438,
+        "positives": 12,
+        "positive_rate": 0.0273972602739726
+      },
+      {
+        "WEEK_NUM": 34,
+        "rows": 472,
+        "positives": 9,
+        "positive_rate": 0.019067796610169493
+      },
+      {
+        "WEEK_NUM": 35,
+        "rows": 502,
+        "positives": 17,
+        "positive_rate": 0.03386454183266932
+      },
+      {
+        "WEEK_NUM": 36,
+        "rows": 471,
+        "positives": 16,
+        "positive_rate": 0.03397027600849257
+      },
+      {
+        "WEEK_NUM": 37,
+        "rows": 442,
+        "positives": 15,
+        "positive_rate": 0.033936651583710405
+      },
+      {
+        "WEEK_NUM": 38,
+        "rows": 432,
+        "positives": 19,
+        "positive_rate": 0.04398148148148148
+      },
+      {
+        "WEEK_NUM": 39,
+        "rows": 407,
+        "positives": 13,
+        "positive_rate": 0.03194103194103194
+      },
+      {
+        "WEEK_NUM": 40,
+        "rows": 450,
+        "positives": 18,
+        "positive_rate": 0.04
+      },
+      {
+        "WEEK_NUM": 41,
+        "rows": 441,
+        "positives": 15,
+        "positive_rate": 0.034013605442176874
+      },
+      {
+        "WEEK_NUM": 42,
+        "rows": 389,
+        "positives": 24,
+        "positive_rate": 0.061696658097686374
+      },
+      {
+        "WEEK_NUM": 43,
+        "rows": 392,
+        "positives": 19,
+        "positive_rate": 0.04846938775510204
+      },
+      {
+        "WEEK_NUM": 44,
+        "rows": 536,
+        "positives": 18,
+        "positive_rate": 0.033582089552238806
+      },
+      {
+        "WEEK_NUM": 45,
+        "rows": 575,
+        "positives": 18,
+        "positive_rate": 0.03130434782608696
+      },
+      {
+        "WEEK_NUM": 46,
+        "rows": 438,
+        "positives": 12,
+        "positive_rate": 0.0273972602739726
+      },
+      {
+        "WEEK_NUM": 47,
+        "rows": 627,
+        "positives": 19,
+        "positive_rate": 0.030303030303030304
+      },
+      {
+        "WEEK_NUM": 48,
+        "rows": 460,
+        "positives": 21,
+        "positive_rate": 0.04565217391304348
+      },
+      {
+        "WEEK_NUM": 49,
+        "rows": 629,
+        "positives": 26,
+        "positive_rate": 0.04133545310015898
+      },
+      {
+        "WEEK_NUM": 50,
+        "rows": 484,
+        "positives": 19,
+        "positive_rate": 0.03925619834710744
+      },
+      {
+        "WEEK_NUM": 51,
+        "rows": 725,
+        "positives": 19,
+        "positive_rate": 0.02620689655172414
+      },
+      {
+        "WEEK_NUM": 52,
+        "rows": 439,
+        "positives": 11,
+        "positive_rate": 0.025056947608200455
+      },
+      {
+        "WEEK_NUM": 53,
+        "rows": 412,
+        "positives": 22,
+        "positive_rate": 0.05339805825242718
+      },
+      {
+        "WEEK_NUM": 54,
+        "rows": 375,
+        "positives": 19,
+        "positive_rate": 0.050666666666666665
+      },
+      {
+        "WEEK_NUM": 55,
+        "rows": 342,
+        "positives": 17,
+        "positive_rate": 0.049707602339181284
+      },
+      {
+        "WEEK_NUM": 56,
+        "rows": 328,
+        "positives": 11,
+        "positive_rate": 0.03353658536585366
+      },
+      {
+        "WEEK_NUM": 57,
+        "rows": 348,
+        "positives": 20,
+        "positive_rate": 0.05747126436781609
+      },
+      {
+        "WEEK_NUM": 58,
+        "rows": 333,
+        "positives": 12,
+        "positive_rate": 0.036036036036036036
+      },
+      {
+        "WEEK_NUM": 59,
+        "rows": 337,
+        "positives": 14,
+        "positive_rate": 0.04154302670623145
+      },
+      {
+        "WEEK_NUM": 60,
+        "rows": 326,
+        "positives": 12,
+        "positive_rate": 0.03680981595092025
+      },
+      {
+        "WEEK_NUM": 61,
+        "rows": 293,
+        "positives": 15,
+        "positive_rate": 0.051194539249146756
+      },
+      {
+        "WEEK_NUM": 62,
+        "rows": 314,
+        "positives": 18,
+        "positive_rate": 0.05732484076433121
+      },
+      {
+        "WEEK_NUM": 63,
+        "rows": 275,
+        "positives": 12,
+        "positive_rate": 0.04363636363636364
+      },
+      {
+        "WEEK_NUM": 64,
+        "rows": 225,
+        "positives": 1,
+        "positive_rate": 0.0044444444444444444
+      },
+      {
+        "WEEK_NUM": 65,
+        "rows": 74,
+        "positives": 1,
+        "positive_rate": 0.013513513513513514
+      },
+      {
+        "WEEK_NUM": 66,
+        "rows": 48,
+        "positives": 0,
+        "positive_rate": 0.0
+      },
+      {
+        "WEEK_NUM": 67,
+        "rows": 28,
+        "positives": 1,
+        "positive_rate": 0.03571428571428571
+      },
+      {
+        "WEEK_NUM": 68,
+        "rows": 13,
+        "positives": 0,
+        "positive_rate": 0.0
+      },
+      {
+        "WEEK_NUM": 69,
+        "rows": 28,
+        "positives": 0,
+        "positive_rate": 0.0
+      },
+      {
+        "WEEK_NUM": 70,
+        "rows": 78,
+        "positives": 1,
+        "positive_rate": 0.01282051282051282
+      },
+      {
+        "WEEK_NUM": 71,
+        "rows": 142,
+        "positives": 5,
+        "positive_rate": 0.035211267605633804
+      },
+      {
+        "WEEK_NUM": 72,
+        "rows": 170,
+        "positives": 2,
+        "positive_rate": 0.011764705882352941
+      },
+      {
+        "WEEK_NUM": 73,
+        "rows": 175,
+        "positives": 5,
+        "positive_rate": 0.02857142857142857
+      },
+      {
+        "WEEK_NUM": 74,
+        "rows": 219,
+        "positives": 5,
+        "positive_rate": 0.0228310502283105
+      },
+      {
+        "WEEK_NUM": 75,
+        "rows": 274,
+        "positives": 7,
+        "positive_rate": 0.025547445255474453
+      },
+      {
+        "WEEK_NUM": 76,
+        "rows": 198,
+        "positives": 10,
+        "positive_rate": 0.050505050505050504
+      },
+      {
+        "WEEK_NUM": 77,
+        "rows": 147,
+        "positives": 5,
+        "positive_rate": 0.034013605442176874
+      },
+      {
+        "WEEK_NUM": 78,
+        "rows": 167,
+        "positives": 2,
+        "positive_rate": 0.011976047904191617
+      },
+      {
+        "WEEK_NUM": 79,
+        "rows": 105,
+        "positives": 2,
+        "positive_rate": 0.01904761904761905
+      },
+      {
+        "WEEK_NUM": 80,
+        "rows": 132,
+        "positives": 5,
+        "positive_rate": 0.03787878787878788
+      },
+      {
+        "WEEK_NUM": 81,
+        "rows": 127,
+        "positives": 1,
+        "positive_rate": 0.007874015748031496
+      },
+      {
+        "WEEK_NUM": 82,
+        "rows": 99,
+        "positives": 4,
+        "positive_rate": 0.04040404040404041
+      },
+      {
+        "WEEK_NUM": 83,
+        "rows": 160,
+        "positives": 1,
+        "positive_rate": 0.00625
+      },
+      {
+        "WEEK_NUM": 84,
+        "rows": 202,
+        "positives": 5,
+        "positive_rate": 0.024752475247524754
+      },
+      {
+        "WEEK_NUM": 85,
+        "rows": 336,
+        "positives": 4,
+        "positive_rate": 0.011904761904761904
+      },
+      {
+        "WEEK_NUM": 86,
+        "rows": 318,
+        "positives": 6,
+        "positive_rate": 0.018867924528301886
+      },
+      {
+        "WEEK_NUM": 87,
+        "rows": 365,
+        "positives": 5,
+        "positive_rate": 0.0136986301369863
+      },
+      {
+        "WEEK_NUM": 88,
+        "rows": 256,
+        "positives": 3,
+        "positive_rate": 0.01171875
+      },
+      {
+        "WEEK_NUM": 89,
+        "rows": 277,
+        "positives": 5,
+        "positive_rate": 0.018050541516245487
+      },
+      {
+        "WEEK_NUM": 90,
+        "rows": 239,
+        "positives": 6,
+        "positive_rate": 0.02510460251046025
+      },
+      {
+        "WEEK_NUM": 91,
+        "rows": 234,
+        "positives": 4,
+        "positive_rate": 0.017094017094017096
+      }
+    ]
+  },
+  "selected": {
+    "rows": 10000,
+    "positives": 314,
+    "negatives": 9686,
+    "positive_rate": 0.0314,
+    "week_min": 0,
+    "week_max": 91,
+    "n_weeks": 92,
+    "weeks_with_positives": 89,
+    "by_week": [
+      {
+        "WEEK_NUM": 0,
+        "rows": 106,
+        "positives": 4,
+        "positive_rate": 0.03773584905660377
+      },
+      {
+        "WEEK_NUM": 1,
+        "rows": 120,
+        "positives": 2,
+        "positive_rate": 0.016666666666666666
+      },
+      {
+        "WEEK_NUM": 2,
+        "rows": 112,
+        "positives": 3,
+        "positive_rate": 0.026785714285714284
+      },
+      {
+        "WEEK_NUM": 3,
+        "rows": 103,
+        "positives": 4,
+        "positive_rate": 0.038834951456310676
+      },
+      {
+        "WEEK_NUM": 4,
+        "rows": 95,
+        "positives": 3,
+        "positive_rate": 0.031578947368421054
+      },
+      {
+        "WEEK_NUM": 5,
+        "rows": 100,
+        "positives": 3,
+        "positive_rate": 0.03
+      },
+      {
+        "WEEK_NUM": 6,
+        "rows": 103,
+        "positives": 4,
+        "positive_rate": 0.038834951456310676
+      },
+      {
+        "WEEK_NUM": 7,
+        "rows": 127,
+        "positives": 3,
+        "positive_rate": 0.023622047244094488
+      },
+      {
+        "WEEK_NUM": 8,
+        "rows": 89,
+        "positives": 4,
+        "positive_rate": 0.0449438202247191
+      },
+      {
+        "WEEK_NUM": 9,
+        "rows": 101,
+        "positives": 2,
+        "positive_rate": 0.019801980198019802
+      },
+      {
+        "WEEK_NUM": 10,
+        "rows": 93,
+        "positives": 2,
+        "positive_rate": 0.021505376344086023
+      },
+      {
+        "WEEK_NUM": 11,
+        "rows": 108,
+        "positives": 3,
+        "positive_rate": 0.027777777777777776
+      },
+      {
+        "WEEK_NUM": 12,
+        "rows": 112,
+        "positives": 3,
+        "positive_rate": 0.026785714285714284
+      },
+      {
+        "WEEK_NUM": 13,
+        "rows": 93,
+        "positives": 3,
+        "positive_rate": 0.03225806451612903
+      },
+      {
+        "WEEK_NUM": 14,
+        "rows": 119,
+        "positives": 3,
+        "positive_rate": 0.025210084033613446
+      },
+      {
+        "WEEK_NUM": 15,
+        "rows": 106,
+        "positives": 5,
+        "positive_rate": 0.04716981132075472
+      },
+      {
+        "WEEK_NUM": 16,
+        "rows": 115,
+        "positives": 3,
+        "positive_rate": 0.02608695652173913
+      },
+      {
+        "WEEK_NUM": 17,
+        "rows": 85,
+        "positives": 3,
+        "positive_rate": 0.03529411764705882
+      },
+      {
+        "WEEK_NUM": 18,
+        "rows": 86,
+        "positives": 3,
+        "positive_rate": 0.03488372093023256
+      },
+      {
+        "WEEK_NUM": 19,
+        "rows": 116,
+        "positives": 4,
+        "positive_rate": 0.034482758620689655
+      },
+      {
+        "WEEK_NUM": 20,
+        "rows": 107,
+        "positives": 3,
+        "positive_rate": 0.028037383177570093
+      },
+      {
+        "WEEK_NUM": 21,
+        "rows": 111,
+        "positives": 3,
+        "positive_rate": 0.02702702702702703
+      },
+      {
+        "WEEK_NUM": 22,
+        "rows": 157,
+        "positives": 4,
+        "positive_rate": 0.025477707006369428
+      },
+      {
+        "WEEK_NUM": 23,
+        "rows": 168,
+        "positives": 4,
+        "positive_rate": 0.023809523809523808
+      },
+      {
+        "WEEK_NUM": 24,
+        "rows": 136,
+        "positives": 3,
+        "positive_rate": 0.022058823529411766
+      },
+      {
+        "WEEK_NUM": 25,
+        "rows": 143,
+        "positives": 4,
+        "positive_rate": 0.027972027972027972
+      },
+      {
+        "WEEK_NUM": 26,
+        "rows": 133,
+        "positives": 3,
+        "positive_rate": 0.022556390977443608
+      },
+      {
+        "WEEK_NUM": 27,
+        "rows": 147,
+        "positives": 4,
+        "positive_rate": 0.027210884353741496
+      },
+      {
+        "WEEK_NUM": 28,
+        "rows": 148,
+        "positives": 4,
+        "positive_rate": 0.02702702702702703
+      },
+      {
+        "WEEK_NUM": 29,
+        "rows": 147,
+        "positives": 5,
+        "positive_rate": 0.034013605442176874
+      },
+      {
+        "WEEK_NUM": 30,
+        "rows": 133,
+        "positives": 5,
+        "positive_rate": 0.03759398496240601
+      },
+      {
+        "WEEK_NUM": 31,
+        "rows": 142,
+        "positives": 5,
+        "positive_rate": 0.035211267605633804
+      },
+      {
+        "WEEK_NUM": 32,
+        "rows": 149,
+        "positives": 3,
+        "positive_rate": 0.020134228187919462
+      },
+      {
+        "WEEK_NUM": 33,
+        "rows": 146,
+        "positives": 4,
+        "positive_rate": 0.0273972602739726
+      },
+      {
+        "WEEK_NUM": 34,
+        "rows": 157,
+        "positives": 3,
+        "positive_rate": 0.01910828025477707
+      },
+      {
+        "WEEK_NUM": 35,
+        "rows": 166,
+        "positives": 5,
+        "positive_rate": 0.030120481927710843
+      },
+      {
+        "WEEK_NUM": 36,
+        "rows": 156,
+        "positives": 5,
+        "positive_rate": 0.03205128205128205
+      },
+      {
+        "WEEK_NUM": 37,
+        "rows": 147,
+        "positives": 5,
+        "positive_rate": 0.034013605442176874
+      },
+      {
+        "WEEK_NUM": 38,
+        "rows": 143,
+        "positives": 6,
+        "positive_rate": 0.04195804195804196
+      },
+      {
+        "WEEK_NUM": 39,
+        "rows": 135,
+        "positives": 4,
+        "positive_rate": 0.02962962962962963
+      },
+      {
+        "WEEK_NUM": 40,
+        "rows": 149,
+        "positives": 5,
+        "positive_rate": 0.03355704697986577
+      },
+      {
+        "WEEK_NUM": 41,
+        "rows": 147,
+        "positives": 5,
+        "positive_rate": 0.034013605442176874
+      },
+      {
+        "WEEK_NUM": 42,
+        "rows": 129,
+        "positives": 7,
+        "positive_rate": 0.05426356589147287
+      },
+      {
+        "WEEK_NUM": 43,
+        "rows": 130,
+        "positives": 6,
+        "positive_rate": 0.046153846153846156
+      },
+      {
+        "WEEK_NUM": 44,
+        "rows": 177,
+        "positives": 5,
+        "positive_rate": 0.02824858757062147
+      },
+      {
+        "WEEK_NUM": 45,
+        "rows": 190,
+        "positives": 5,
+        "positive_rate": 0.02631578947368421
+      },
+      {
+        "WEEK_NUM": 46,
+        "rows": 146,
+        "positives": 4,
+        "positive_rate": 0.0273972602739726
+      },
+      {
+        "WEEK_NUM": 47,
+        "rows": 208,
+        "positives": 6,
+        "positive_rate": 0.028846153846153848
+      },
+      {
+        "WEEK_NUM": 48,
+        "rows": 152,
+        "positives": 6,
+        "positive_rate": 0.039473684210526314
+      },
+      {
+        "WEEK_NUM": 49,
+        "rows": 208,
+        "positives": 8,
+        "positive_rate": 0.038461538461538464
+      },
+      {
+        "WEEK_NUM": 50,
+        "rows": 161,
+        "positives": 6,
+        "positive_rate": 0.037267080745341616
+      },
+      {
+        "WEEK_NUM": 51,
+        "rows": 240,
+        "positives": 6,
+        "positive_rate": 0.025
+      },
+      {
+        "WEEK_NUM": 52,
+        "rows": 146,
+        "positives": 4,
+        "positive_rate": 0.0273972602739726
+      },
+      {
+        "WEEK_NUM": 53,
+        "rows": 136,
+        "positives": 6,
+        "positive_rate": 0.04411764705882353
+      },
+      {
+        "WEEK_NUM": 54,
+        "rows": 125,
+        "positives": 6,
+        "positive_rate": 0.048
+      },
+      {
+        "WEEK_NUM": 55,
+        "rows": 113,
+        "positives": 5,
+        "positive_rate": 0.04424778761061947
+      },
+      {
+        "WEEK_NUM": 56,
+        "rows": 110,
+        "positives": 4,
+        "positive_rate": 0.03636363636363636
+      },
+      {
+        "WEEK_NUM": 57,
+        "rows": 115,
+        "positives": 6,
+        "positive_rate": 0.05217391304347826
+      },
+      {
+        "WEEK_NUM": 58,
+        "rows": 111,
+        "positives": 4,
+        "positive_rate": 0.036036036036036036
+      },
+      {
+        "WEEK_NUM": 59,
+        "rows": 112,
+        "positives": 4,
+        "positive_rate": 0.03571428571428571
+      },
+      {
+        "WEEK_NUM": 60,
+        "rows": 109,
+        "positives": 4,
+        "positive_rate": 0.03669724770642202
+      },
+      {
+        "WEEK_NUM": 61,
+        "rows": 98,
+        "positives": 5,
+        "positive_rate": 0.05102040816326531
+      },
+      {
+        "WEEK_NUM": 62,
+        "rows": 104,
+        "positives": 5,
+        "positive_rate": 0.04807692307692308
+      },
+      {
+        "WEEK_NUM": 63,
+        "rows": 92,
+        "positives": 4,
+        "positive_rate": 0.043478260869565216
+      },
+      {
+        "WEEK_NUM": 64,
+        "rows": 76,
+        "positives": 1,
+        "positive_rate": 0.013157894736842105
+      },
+      {
+        "WEEK_NUM": 65,
+        "rows": 26,
+        "positives": 1,
+        "positive_rate": 0.038461538461538464
+      },
+      {
+        "WEEK_NUM": 66,
+        "rows": 17,
+        "positives": 0,
+        "positive_rate": 0.0
+      },
+      {
+        "WEEK_NUM": 67,
+        "rows": 11,
+        "positives": 1,
+        "positive_rate": 0.09090909090909091
+      },
+      {
+        "WEEK_NUM": 68,
+        "rows": 5,
+        "positives": 0,
+        "positive_rate": 0.0
+      },
+      {
+        "WEEK_NUM": 69,
+        "rows": 10,
+        "positives": 0,
+        "positive_rate": 0.0
+      },
+      {
+        "WEEK_NUM": 70,
+        "rows": 27,
+        "positives": 1,
+        "positive_rate": 0.037037037037037035
+      },
+      {
+        "WEEK_NUM": 71,
+        "rows": 48,
+        "positives": 2,
+        "positive_rate": 0.041666666666666664
+      },
+      {
+        "WEEK_NUM": 72,
+        "rows": 57,
+        "positives": 1,
+        "positive_rate": 0.017543859649122806
+      },
+      {
+        "WEEK_NUM": 73,
+        "rows": 59,
+        "positives": 2,
+        "positive_rate": 0.03389830508474576
+      },
+      {
+        "WEEK_NUM": 74,
+        "rows": 74,
+        "positives": 2,
+        "positive_rate": 0.02702702702702703
+      },
+      {
+        "WEEK_NUM": 75,
+        "rows": 92,
+        "positives": 3,
+        "positive_rate": 0.03260869565217391
+      },
+      {
+        "WEEK_NUM": 76,
+        "rows": 66,
+        "positives": 3,
+        "positive_rate": 0.045454545454545456
+      },
+      {
+        "WEEK_NUM": 77,
+        "rows": 50,
+        "positives": 2,
+        "positive_rate": 0.04
+      },
+      {
+        "WEEK_NUM": 78,
+        "rows": 56,
+        "positives": 1,
+        "positive_rate": 0.017857142857142856
+      },
+      {
+        "WEEK_NUM": 79,
+        "rows": 36,
+        "positives": 1,
+        "positive_rate": 0.027777777777777776
+      },
+      {
+        "WEEK_NUM": 80,
+        "rows": 45,
+        "positives": 2,
+        "positive_rate": 0.044444444444444446
+      },
+      {
+        "WEEK_NUM": 81,
+        "rows": 43,
+        "positives": 1,
+        "positive_rate": 0.023255813953488372
+      },
+      {
+        "WEEK_NUM": 82,
+        "rows": 34,
+        "positives": 2,
+        "positive_rate": 0.058823529411764705
+      },
+      {
+        "WEEK_NUM": 83,
+        "rows": 54,
+        "positives": 1,
+        "positive_rate": 0.018518518518518517
+      },
+      {
+        "WEEK_NUM": 84,
+        "rows": 68,
+        "positives": 2,
+        "positive_rate": 0.029411764705882353
+      },
+      {
+        "WEEK_NUM": 85,
+        "rows": 113,
+        "positives": 2,
+        "positive_rate": 0.017699115044247787
+      },
+      {
+        "WEEK_NUM": 86,
+        "rows": 106,
+        "positives": 2,
+        "positive_rate": 0.018867924528301886
+      },
+      {
+        "WEEK_NUM": 87,
+        "rows": 122,
+        "positives": 2,
+        "positive_rate": 0.01639344262295082
+      },
+      {
+        "WEEK_NUM": 88,
+        "rows": 85,
+        "positives": 1,
+        "positive_rate": 0.011764705882352941
+      },
+      {
+        "WEEK_NUM": 89,
+        "rows": 93,
+        "positives": 2,
+        "positive_rate": 0.021505376344086023
+      },
+      {
+        "WEEK_NUM": 90,
+        "rows": 80,
+        "positives": 2,
+        "positive_rate": 0.025
+      },
+      {
+        "WEEK_NUM": 91,
+        "rows": 79,
+        "positives": 2,
+        "positive_rate": 0.02531645569620253
+      }
+    ]
+  },
+  "tables": [
+    {
+      "table": "train_applprev_1_0.csv",
+      "rows_source": 77481,
+      "rows_selected": 25899
+    },
+    {
+      "table": "train_applprev_1_1.csv",
+      "rows_source": 51336,
+      "rows_selected": 16993
+    },
+    {
+      "table": "train_applprev_2.csv",
+      "rows_source": 277299,
+      "rows_selected": 92531
+    },
+    {
+      "table": "train_base.csv",
+      "rows_source": 30000,
+      "rows_selected": 10000
+    },
+    {
+      "table": "train_credit_bureau_a_1_0.csv",
+      "rows_source": 80886,
+      "rows_selected": 26907
+    },
+    {
+      "table": "train_credit_bureau_a_1_1.csv",
+      "rows_source": 118945,
+      "rows_selected": 39637
+    },
+    {
+      "table": "train_credit_bureau_a_1_2.csv",
+      "rows_source": 71785,
+      "rows_selected": 23763
+    },
+    {
+      "table": "train_credit_bureau_a_1_3.csv",
+      "rows_source": 41380,
+      "rows_selected": 13822
+    },
+    {
+      "table": "train_credit_bureau_a_2_0.csv",
+      "rows_source": 101208,
+      "rows_selected": 33588
+    },
+    {
+      "table": "train_credit_bureau_a_2_1.csv",
+      "rows_source": 151812,
+      "rows_selected": 50448
+    },
+    {
+      "table": "train_credit_bureau_a_2_10.csv",
+      "rows_source": 81204,
+      "rows_selected": 26616
+    },
+    {
+      "table": "train_credit_bureau_a_2_2.csv",
+      "rows_source": 354435,
+      "rows_selected": 122558
+    },
+    {
+      "table": "train_credit_bureau_a_2_3.csv",
+      "rows_source": 526889,
+      "rows_selected": 178322
+    },
+    {
+      "table": "train_credit_bureau_a_2_4.csv",
+      "rows_source": 541681,
+      "rows_selected": 173076
+    },
+    {
+      "table": "train_credit_bureau_a_2_5.csv",
+      "rows_source": 646348,
+      "rows_selected": 215414
+    },
+    {
+      "table": "train_credit_bureau_a_2_6.csv",
+      "rows_source": 477001,
+      "rows_selected": 161268
+    },
+    {
+      "table": "train_credit_bureau_a_2_7.csv",
+      "rows_source": 148850,
+      "rows_selected": 48756
+    },
+    {
+      "table": "train_credit_bureau_a_2_8.csv",
+      "rows_source": 282446,
+      "rows_selected": 94813
+    },
+    {
+      "table": "train_credit_bureau_a_2_9.csv",
+      "rows_source": 381866,
+      "rows_selected": 127657
+    },
+    {
+      "table": "train_credit_bureau_b_1.csv",
+      "rows_source": 1753,
+      "rows_selected": 640
+    },
+    {
+      "table": "train_credit_bureau_b_2.csv",
+      "rows_source": 26485,
+      "rows_selected": 9916
+    },
+    {
+      "table": "train_debitcard_1.csv",
+      "rows_source": 3209,
+      "rows_selected": 1057
+    },
+    {
+      "table": "train_deposit_1.csv",
+      "rows_source": 2986,
+      "rows_selected": 977
+    },
+    {
+      "table": "train_other_1.csv",
+      "rows_source": 1018,
+      "rows_selected": 316
+    },
+    {
+      "table": "train_person_1.csv",
+      "rows_source": 58417,
+      "rows_selected": 19459
+    },
+    {
+      "table": "train_person_2.csv",
+      "rows_source": 32337,
+      "rows_selected": 10802
+    },
+    {
+      "table": "train_static_0_0.csv",
+      "rows_source": 19833,
+      "rows_selected": 6596
+    },
+    {
+      "table": "train_static_0_1.csv",
+      "rows_source": 10167,
+      "rows_selected": 3404
+    },
+    {
+      "table": "train_static_cb_0.csv",
+      "rows_source": 29483,
+      "rows_selected": 9821
+    },
+    {
+      "table": "train_tax_registry_a_1.csv",
+      "rows_source": 63259,
+      "rows_selected": 21386
+    },
+    {
+      "table": "train_tax_registry_b_1.csv",
+      "rows_source": 21965,
+      "rows_selected": 7459
+    },
+    {
+      "table": "train_tax_registry_c_1.csv",
+      "rows_source": 66626,
+      "rows_selected": 22337
+    }
+  ],
+  "test_directory_copied": false
+}
